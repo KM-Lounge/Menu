@@ -64,11 +64,6 @@ color: white;
 max-height: 80vh; /* Максимальная высота подменю — 80% от высоты экрана */
 
 }
-@media (max-width: 600px) {
-            .text-block {
-                font-size: 1rem; /* Меньший текст на мобильных */
-                width: 90%; /* Блок занимает большую ширину на маленьких экранах */
-            }
 
 @media (max-width: 600px) {
     button {
