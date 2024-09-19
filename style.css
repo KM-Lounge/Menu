@@ -20,7 +20,7 @@ body {
 #logo {
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
 animation: flicker 1s infinite; /* Анимация мерцания на 1 секунду, бесконечно */
 
