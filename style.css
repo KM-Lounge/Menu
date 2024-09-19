@@ -27,7 +27,7 @@ animation: flicker 1s infinite; /* Анимация мерцания на 1 се
 }
 
 #logo img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
