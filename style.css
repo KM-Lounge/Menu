@@ -20,14 +20,14 @@ body {
 #logo {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
 animation: flicker 1s infinite; /* Анимация мерцания на 1 секунду, бесконечно */
 
 }
 
 #logo img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -58,11 +58,14 @@ transition: background-color 0.3s ease;
 }
 
 .text-block {
+    font-size: 80%;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
 color: white;
 max-height: 80vh; /* Максимальная высота подменю — 80% от высоты экрана */
-
+ overflow-y: auto; /* Разрешить вертикальную прокрутку */
+    white-space: nowrap; /* Запретить перенос текста */
+    
 }
 
 @media (max-width: 600px) {
