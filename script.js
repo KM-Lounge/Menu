@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(() => {
         logo.classList.add('hidden');
         mainMenu.classList.remove('hidden');
+        history.replaceState({menu: 'main'}, '', '#main'); // Устанавливаем начальное состояние
     }, 3000);
 
     // Навигация в меню Бар
@@ -81,12 +82,10 @@ document.addEventListener('DOMContentLoaded', function () {
         history.pushState({menu: 'sushi'}, '', '#sushi');
     });
 
-    // Навигация кнопок назад
+    // Навигация кнопок назад на странице
     document.querySelectorAll('.back-btn').forEach(button => {
         button.addEventListener('click', () => {
-            hideAllMenus();
-            mainMenu.classList.remove('hidden');
-            history.pushState({menu: 'main'}, '', '#main');
+            window.history.back(); // Используем history.back() вместо pushState или replaceState
         });
     });
 
