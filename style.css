@@ -68,6 +68,80 @@ max-height: 80vh; /* Максимальная высота подменю — 80
     
 }
 
+/* Фоновое изображение для подменю "Алкогольные коктейли" */
+#alcohol-cocktails-menu {
+    background-image: url(img/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+/* Фоновое изображение для подменю "Безалкогольные коктейли" */
+#non-alcohol-cocktails-menu {
+    background-image: url(img/image4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Фоновое изображение для подменю "Чай" */
+#tea-menu {
+    background-image: url(img/image5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Фоновое изображение для подменю "Алкогольные напитки" */
+#alcohol-menu {
+    background-image: url(img/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Фоновое изображение для подменю "На початок" */
+#start-menu {
+    background-image: url(img/image6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Фоновое изображение для подменю "Основные блюда" */
+#main-dishes-menu {
+    background-image: url(img/image7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Фоновое изображение для подменю "Фастфуд" */
+#fastfood-menu {
+    background-image: url(img/image8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Фоновое изображение для подменю "Суши" */
+#sushi-menu {
+    background-image: url(img/image9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
 
 @media (max-width: 600px) {
     button {
